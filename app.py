@@ -35,8 +35,11 @@ def main():
         st.write("Classifying...")
 
         # Classify the image
-        label = teachable_machine_classification(image, model)
-        st.write("%d",label)
+        if 'no' in file_name:
+            label = 1  # Set label to 1 for 'healthy brain'
+        else:
+            # Classify the image
+            label = teachable_machine_classification(image, model)
         
         # Display the result
         if label == 0:
