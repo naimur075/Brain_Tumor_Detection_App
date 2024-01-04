@@ -16,7 +16,7 @@ if uploaded_file is not None:
     st.write("Classifying...")
     
     st.write("")
-    label = teachable_machine_classification(image, 'model.h5')
+    label = teachable_machine_classification(image, 'best_model_f1_0.7660_epoch_99.h5')
     if label == 0:
        st.write("The MRI scan detects a brain tumor")
     else:
