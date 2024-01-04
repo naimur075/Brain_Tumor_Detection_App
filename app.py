@@ -36,7 +36,8 @@ def main():
 
         # Classify the image
         label = teachable_machine_classification(image, model)
-
+        st.write("%d",label)
+        
         # Display the result
         if label == 0:
             st.write("The MRI scan detects a brain tumor")
