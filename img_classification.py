@@ -4,7 +4,8 @@ import numpy as np
 import keras
 from keras.models import load_model
 
-from PIL import Image, ImageOpsdef teachable_machine_classification(img, weights_file):
+from PIL import Image, ImageOps
+def teachable_machine_classification(img, weights_file):
     
     model = keras.models.load_model(weights_file)
 
