@@ -14,7 +14,7 @@ def teachable_machine_classification(img, weights_file):
     image = img
   
     size = (240, 240)
-    image = image.resize(size, Image.ANTIALIAS)
+    image = image.resize(size, 'ANTIALIAS')
 
   
     image_array = np.asarray(image)
