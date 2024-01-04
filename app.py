@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 # Function to preprocess and classify the image
 def teachable_machine_classification(img, model):
     size = (240, 240)
-    image = img.resize(size, resample=Image.ANTIALIAS)
+    image = img.resize(size)
 
     image_array = np.asarray(image)
     normalized_image_array = (image_array.astype(np.float32) / 127.0) - 1
