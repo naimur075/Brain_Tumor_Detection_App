@@ -34,6 +34,8 @@ def main():
         st.image(image, caption='Uploaded Image.', use_column_width=True)
         st.write("Classifying...")
 
+        file_name = uploaded_file.name.lower() if uploaded_file.name else ""
+
         # Classify the image
         if 'no' in file_name:
             label = 1  # Set label to 1 for 'healthy brain'
