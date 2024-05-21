@@ -210,7 +210,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-#c:\Users\Alvi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages
-
-#python -m streamlit run "E:\Online Class\3-2\Lab\CSE 3200\Brain-Tumor-Detection-master\app2.py"
