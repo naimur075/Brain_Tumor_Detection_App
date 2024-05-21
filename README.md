@@ -1,4 +1,6 @@
-app.py - Prediction in local host
+app.py - Prediction in local host 
+
+
 app2.py - Real Time Train & Test in local host
 # Brain_Tumor_Detection_Deploy
 ![image](https://github.com/naimur075/Brain_Tumor_Detection_Deploy/assets/114079262/3e351456-9a9b-4397-92d1-ed0b1ddaf2ea)
