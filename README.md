@@ -26,3 +26,9 @@ To run these apps, you must install Streamlit on your PC. Once installed, naviga
 
 ```bash
 python -m streamlit run app.py
+```
+## Conclusion
+This project demonstrates the powerful capabilities of convolutional neural networks (CNNs) in detecting brain tumors from MRI scans. By leveraging both scratch-built and library-based models, we aim to provide a comprehensive tool for medical professionals to aid in early diagnosis and treatment planning. The integration with Streamlit allows for an interactive and user-friendly interface, enabling real-time predictions and model training.
+
+We encourage you to explore the code, experiment with the models, and contribute to the project. 
+For any questions or contributions, please feel free to open an issue or submit a pull request. We look forward to your feedback and collaboration.
