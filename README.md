@@ -1,11 +1,10 @@
 # Brain_Tumor_Detection_App
+Welcome to the Brain Tumor Detection project! This repository contains the code and resources for developing a convolutional neural network (CNN) model aimed at detecting brain tumors from MRI scans. The goal of this project is to leverage deep learning techniques to provide an accurate and efficient tool for assisting medical professionals in diagnosing brain tumors.
+# Features
+**Deep Learning Models:** Implementation of various CNN models from scratch as well as using popular deep learning libraries.
+**Streamlit Interface:** An interactive web application built with Streamlit to upload MRI scans and view predictions.
+**Multi-class Extension:** Capability to extend the classifier to handle additional types of medical images, such as chest X-rays and hand X-rays.
+**Performance Metrics:** Comprehensive evaluation of model performance using metrics such as accuracy, precision, recall, and F1 score.
 
 
-app.py - Prediction in local host 
-
-
-app2.py - Real Time Train & Test in local host
-
-![image](https://github.com/naimur075/Brain_Tumor_Detection_Deploy/assets/114079262/3e351456-9a9b-4397-92d1-ed0b1ddaf2ea)
-![image](https://github.com/naimur075/Brain_Tumor_Detection_Deploy/assets/114079262/c8c44120-05c4-4c40-9769-b095e4295602)
 
